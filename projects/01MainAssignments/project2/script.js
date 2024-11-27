@@ -21,16 +21,16 @@ function setup() {
 
 function draw() {
   if (buttonState2) {
-    if (pressed) {  if (buttonCount < 20) { // Only create buttons if the count is less than 20
-        for (let i = 0; i < 20 - buttonCount; i++) { // Create the remaining buttons
+    if (pressed) {  
+        for (let i = 0; i < 20; i++) { // Create the remaining buttons
           let newButton = createButton("click me");
           newButton.position(random(0, width), random(0, height)); // Position new buttons randomly
-          buttons.push(newButton); // Store new button in the array
+          buttons.push(newButton); 
         }
       }
     } else {
     }
-  }
+
 }
 
 function moveButton() {
