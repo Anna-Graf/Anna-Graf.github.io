@@ -57,8 +57,8 @@ function draw() {
 	let sliderColor = slider2.value();
 	noStroke()
 	fill(255);
-	rect(width-110, 75, 80,10, 20)
-	rect(width-85, 95, 140,10,20)
+	rect(width-116, 67, 85,10, 20)
+	rect(width-92, 87, 140,10,20)
 	
 		
 		if(keyIsPressed){
