@@ -92,8 +92,8 @@ function draw() {
       b.remove();
     }
     buttons = []; // Clear the array
-
-    clear(); 
+    background(0);
+    //clear(); 
 		// Situation 1: pressed the final button in time CLICK ME!!
     if (finalPressed) { 
       distanceCharacter -= speedCharacter;
@@ -108,7 +108,7 @@ function draw() {
         //scale(2);
 				push();
 				rectMode(CENTER);
-        image(congratsSign, 565, 150);
+        image(congratsSign, width/2-195, 150);
 				pop();
 
         setTimeout(() => {
@@ -139,7 +139,7 @@ function draw() {
         image(characterDed, distanceCharacter - 35, height - 230, characterDed.width, characterDed.height); 	
         push();
         //scale(2);
-        image(errorSign, 565, 150);
+        image(errorSign, width/2 - 195, 150);
         pop();
 
         // Start walking out of frame
