@@ -1,5 +1,5 @@
 <div align="center">
-    <h1>👨‍💻 Creative Coding Portfolio 👩‍💻</h1>
+    <h1>👨‍💻 Creative Coding 👩‍💻</h1>
 </div>
  
 
