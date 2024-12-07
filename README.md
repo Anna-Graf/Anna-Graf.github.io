@@ -10,7 +10,7 @@ To deepen our understanding, we were given two assignments that challenged us to
 
 ## Assignment 1
 
-The first assignment involved creating an interactive typography. My goal was to create a typography where the points move away from the mouse cursor. The sample factor and color of the expanding points can be controlled by using sliders. Users can input their own text through a text bar or toggle between the words "IAD" and "ZHDK" by pressing the keys "1" and "2". The font can be changed by clicking on the canvas and the size of the typography can be adjusted by pressing the spacebar.
+The first assignment involved creating an interactive typography. My goal was to create a typography where the points move away from the mouse cursor. The sample factor and the color of the expanding points can be controlled by using sliders. An own text can be added through the text bar. By pressing the keys "1" and "2" it is possible toggle between the words "IAD" and "ZHDK". The font can be changed by clicking on the canvas and the size of the typography can be adjusted by pressing the spacebar.
 
 ## Assignment 2
 
